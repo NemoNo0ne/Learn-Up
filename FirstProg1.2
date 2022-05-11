@@ -1,0 +1,22 @@
+public class FirstProgram {
+    public static void main(String[] args) {
+        double a = 16, b = -8, c = 1, D;
+        D = Math.pow(b, 2) - 4*a*c;
+        if (D < 0) {
+            System.out.println("D < 0, no roots");
+        }
+        else if (D > 0) {
+                double x = ((-b + Math.sqrt(D))/ (2 * a));
+                double y = ((-b - Math.sqrt(D))/ (2 * a));
+
+            System.out.println("x =" + x);
+            System.out.println("y =" + y);
+            }
+        else {
+            double x = -b/(2*a);
+            System.out.println("one root, x =" + x );
+        }
+
+    }
+
+}
