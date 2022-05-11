@@ -1,0 +1,23 @@
+public class FirstProgram {
+    public static void main(String[] args){
+        int x = 12;
+        int season;
+        if (x > 12) {
+            System.out.println("The number should not exceed 12");
+        }
+          else if (x <= 3) {
+            System.out.println("Winter");
+        } else if (x <= 6) {
+            System.out.println("Autumn");
+        } else if (x <= 9) {
+            System.out.println("Summer");
+        } else if (x <= 12) {
+            System.out.println("Spring");
+        } else {
+            System.out.println("The number should not exceed 12");
+        }
+    }
+
+
+
+}
